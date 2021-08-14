@@ -10,7 +10,7 @@ header .row {
     background-attachment: fixed;
     color: white;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
 header .formReservation {
@@ -62,7 +62,7 @@ header .slogan {
 
 .fondChambre {
     min-height: calc(100vh - 60px);
-    background-image: url(../img/chat.jpg);
+    background-image: url(../img/malik.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
