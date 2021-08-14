@@ -1,0 +1,192 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #444;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* HEADER */
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+    transition: all 2s ease-in-out;
+}
+
+header h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 54px;
+    transition: all 0.3s ease-in-out;
+}
+
+.date {
+    color: #ff7a00;
+    float: left;
+    transition: all 2s ease-in-out;
+}
+
+.fa-bars {
+    float: right;
+    margin-top: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header nav ul li {
+    display: inline-block;
+    /* possible ajout d'une transition ici pour le menu */
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+header nav ul li a:hover,
+.icon:hover {
+    color: #ff7a00;
+    transition: all 0.3s linear;
+}
+
+
+/* Ajout de 2 class qui vont de paire avec l'animation/bar 
+nav responsive et le code javascript */
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    opacity: 0;
+    transform: translate(100px, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.visuallyhiddensmooth {
+    opacity: 0;
+    transform: translate(100px, 0);
+}
+
+
+/* MAIN IMAGE */
+
+#main-image {
+    height: 580px;
+    /* problème de répétition sur le bord droit après 1000px de largeur */
+    background: url('img/boiseffrayant.jpg') center no-repeat;
+    background-size: cover;
+    filter: grayscale(10%);
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+#main-image h2 strong {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.button-1 {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #ff7a00;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-1:hover {
+    background: #ffffff;
+    color: #ff7a00;
+    transition: all 0.3s linear;
+}
+
+
+/* STEPS */
+
+
+/* POSSIBILITIES */
+
+
+/* CONTACT */
+
+
+/* FOOTER */
+
+
+/***
+MEDIA QUERY
+***/
+
+@media only screen and (min-width: 1000px) {}
+
+@media only screen and (max-width: 999px) {}

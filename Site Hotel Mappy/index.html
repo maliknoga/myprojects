@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site Responsive Hotel Mappy.fr">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- LOGO img/logo.png 50x50 ou 32x32 -->
+    <link rel="shortcut icon" href="img/logo.png"> <!-- A MODIF -->
+
+    <title>Hotel Mappy</title>
+</head>
+
+<body id="haut">
+
+    <!-- ***************** NAVBAR ***************** -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#haut">
+            <img src="img/logo.png" alt="logo Hotel">Hotel Mappy
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#haut">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#presentation">Présentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#avis">Avis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ***************** HEADER ***************** -->
+    <header class="container-fluid">
+        <div class="row align-items-center">
+
+            <!-- ********* 1er col ********* -->
+            <div class="col-12 col-md-6 formReservation">
+                <div>
+                    <h1>Hébérgement chaleureux</h1>
+                    <form class="form-inline">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <!-- PASSEZ SUR DU PHP POUR RECUPERER CETTE INFO LA -->
+                            <input type="date" class="form-control" name="dateReservation">
+                        </div>
+                        <button type="submit" class="btn btn-info mb-2">Voir les disponibilités</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ********* 2eme col ********* -->
+            <div class="col-12 col-md-6 slogan">
+                <h2>Vivez en bonne compagnie</h2>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ***************** NOS OFFRES ***************** -->
+    <div class="container-fluid" id="presentation">
+        <div class="row">
+            <!-- ********* Titre ********* -->
+            <div class="col-12">
+                <h2>Nos Offres</h2>
+            </div>
+            <!-- ********* Icones ********* -->
+            <!-- ***** Lit ***** -->
+            <div class="col-12 col-md-6">
+                <div class="media my-3">
+                    <span>
+                        <i class="fas fa-bed"></i>
+                    </span>
+                    <div class="media-body ml-3">
+                        <h5 class="mt-0">Litterie de Qualité</h5>
+                        <p class="text-justify">Un manque de sommeil ? Sportif de nuit ? Chez Mappy, on vous a compris ! C'est pourquoi il dispose exclusivement d'un lit solide et d'un clic clac suisse bien confortable, munie des draps en laine de bouquetin qui vous tiendront chaud et qui vous feront planner jusqu'au 7eme ciel.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Certificat ***** -->
+            <div class="col-12 col-md-6">
+                <div class="media my-3">
+                    <span>
+                        <i class="fas fa-award"></i>
+                    </span>
+                    <div class="media-body ml-3">
+                        <h5 class="mt-0">Certification de Confiance</h5>
+                        <p class="text-justify">Avec Mappy, plus de raison de douter: ce gaillard au grand coeur sera pour vous votre meilleur confidant/psy/conseiller financier durant votre séjour. Il pensera toujours à votre bien être au détriment du sien, alors penser toujours à lui rendre la pareil afin d'entretenir votre compagnion d'avanture.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Parking ***** -->
+            <div class="col-12 col-md-6">
+                <div class="media my-3">
+                    <span>
+                        <i class="fas fa-parking"></i>
+                    </span>
+                    <div class="media-body ml-3">
+                        <h5 class="mt-0">Parking Privatif</h5>
+                        <p class="text-justify">Si vous comptez venir en voiture chez Mappy, cet employé d'hotel et d'aeroport se fera un plaisir de prendre vos clés et d'aller garer votre voiture dans son parking privé. Et si vous en avez besoin en semaine, il sera votre chauffeur personnel ou votre coursier.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Randonnée ***** -->
+            <div class="col-12 col-md-6">
+                <div class="media my-3">
+                    <span>
+                        <i class="fas fa-hiking"></i>
+                    </span>
+                    <div class="media-body ml-3">
+                        <h5 class="mt-0">Randonnée</h5>
+                        <p class="text-justify">Autour de l'Hotel Mappy, vous pourrez vous adonner au plaisir des longues promenades et randonnées en forêt et en montagne. Tout votre équipement sera financer par les éconnomies du propriétaire. Pensez bien sûr à vous préparer physiquement à l'occasion, car il ne s'agit pas d'une promenade de santé !</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Proche Aéroport ***** -->
+            <div class="col-12 col-md-6">
+                <div class="media my-3">
+                    <span>
+                        <i class="fas fa-plane"></i>
+                    </span>
+                    <div class="media-body ml-3">
+                        <h5 class="mt-0">Proche Aéroport</h5>
+                        <p class="text-justify">Envie de nous quittez ? Vous serez ravis d'apprendre que chez Mappy, on vous donne les moyens d'obtenir vos billets pour le retour au meilleurs prix ! Un aeroport aux alentours est à votre disposition si l'envie vous dit de transformer votre Mappy en bagagiste.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Salle d'arcade ***** -->
+            <div class="col-12 col-md-6">
+                <div class="media my-3">
+                    <span>
+                        <i class="fas fa-gamepad"></i>
+                    </span>
+                    <div class="media-body ml-3">
+                        <h5 class="mt-0">Arcade</h5>
+                        <p class="text-justify">Venez nombreux pour geeker ! Mappy et sa collection de jeux vidéos vous amusera pendant votre séjour: ps4, switch, pc de gaming. Tout l'équipement pour rager contre le gameplay en haute qualité.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************** AVIS ***************** -->
+    <div class="container-fluid" id="avis">
+        <div class="row">
+            <div class="col-12 col-md-6 fondChambre">
+
+            </div>
+            <div class="col-12 col-md-6 avisClient text-center d-flex flex-column justify-content-center">
+                <span>
+                    <i class="fas fa-quote-right"></i>
+                    <h5 class="my-4">Malik Touat</h5>
+                    <p>Hitler dessinait donc c'était pas un si mauvais bougre.</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************** FORMULAIRE ***************** -->
+    <div class="container-fluid" id="contact">
+        <div class="row align-items-center">
+            <div class="col-12 offset-md-1 col-md-5 formContact">
+                <form action="mailto:contact@hotelmappy.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Saisir votre email">
+                    </div>
+                    <div class="form-group">
+                        <label for="sujet">Sujet du mail</label>
+                        <input type="text" class="form-control" name="sujet" placeholder="Saisir le sujet du mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" name="message" rows="3" placeholder="Saisir votre message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ***************** FOOTER ***************** -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4"></div>
+            <div class="col-12 col-md-4"></div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>
