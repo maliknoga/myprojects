@@ -18,6 +18,17 @@ img {
     height: auto;
 }
 
+a {
+    color: #d82c2e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BB8355;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
 ul,
 ol {
     list-style: none;
@@ -100,6 +111,15 @@ section .heading h2 {
 
 #about .heading h3 {
     color: #000;
+}
+
+#about .heading h4 {
+    color: #000;
+    display: block;
+    /*font-size: 20px;*/
+    margin: 0 10em;
+    line-height: 50px;
+    text-align: justify center;
 }
 
 .button1 {
